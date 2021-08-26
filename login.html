@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="./js/app.js"></script>
+  <!-- Title -->
+  <title>Iniciar Sesión</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Cartelera de cine</h1>
+  </header>
+  <section class="login">
+      <section class="login__container">
+        <h2>Inicia sesión</h2>
+        <form class="login__container--form" id="form" action="#"  onsubmit="enviar(event)" >
+          <input  value="" class="input" type="text" placeholder="Correo" id="username">
+          <input  value="" class="input" type="password" placeholder="Contraseña" id="password">
+          <button  id="submit"  type="submit" class="button">Iniciar sesión</button>
+          <div class="login__container--remember-me">
+            <label>
+              <input type="checkbox" name="" id="cbox1" value="checkbos">Recuérdame
+            </label>
+            <a href="/">Olvidé mi contraseña</a>
+          </div>
+        </form>
+        <div id="error"></div>
+        <p class="login__container--register">No tienes ninguna cuenta <a href="">Regístrate</a></p>
+      </section>
+  </section>
+</section>
+  <footer class="footer">
+    <a href="/">Términos de uso</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+  </footer>
+</body>
+</html>
